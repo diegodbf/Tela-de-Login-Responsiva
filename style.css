@@ -1,0 +1,261 @@
+body{
+    margin:0;
+    display:flex;
+    background-image: url("Desktop\ -\ 1.png");
+    font-family: 'Montserrat';font-size: 22px;
+    box-sizing: border-box;
+}
+
+.main-login{
+    width: 100vw;
+    height:100vh;
+    display:flex;
+}
+.logo{
+    width: 180px;
+    height:60px
+}
+.main-login{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width:50vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-barra{
+    
+    background-color: blueviolet;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+}
+.right-barra > h1{
+    color:white;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    
+   
+}
+
+.right-login{
+    width:50vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.card-login{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    border-radius: 13px;
+    width:90%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    width: max-content;
+}
+
+
+.botoeslado{
+    display:flex;
+    flex-direction: initial;
+    margin-bottom: 40px;
+}
+
+.botoesbaixo{
+    display:flex;
+    margin-right:130px;
+    margin-top:30px;
+}
+
+.esqueci{
+    margin-top:17px;
+    margin-left:15px;
+}
+
+
+.senha{
+    margin-bottom: 40px;
+}
+
+.dados{
+    border-color: grey;
+    border:solid;
+    padding: 0px 85px;
+    margin:5px;
+    padding-left:10px;
+    color: gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.colaborador{
+    color:rgb(95, 208, 95);
+    background-color: black;
+    border-radius: 10px;
+    padding:3px 14px;
+}
+.gerencia{
+    color:rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10px;
+    padding:3px 28px;
+}
+
+
+
+.botoeslado > colaborador{
+color: rgb(95, 208, 95);
+background-color: black;;
+}
+
+.Botao{
+    background-color: #3A72F5;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 9px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:10px;
+    margin-top:10px;
+
+}
+
+.Botao2{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+    padding: 9px;
+    border-radius: 8px;
+    margin:5px;
+}
+.gerencia{
+    margin-left:0px;
+}
+
+.botoeslado>input{
+ margin-left:0;
+}
+
+body > a{
+    height: 20%;
+}
+
+.dados > input {
+width: 100%;
+box-sizing: border-box;
+}
+
+@media only screen and (max-width:650px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-login{
+        flex-direction:column;
+    }
+    .left-login{
+        height: 4%;
+    }
+
+    .right-login{
+        width: 300vh;
+        height:auto;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-login{
+        flex-direction:column;
+    }
+    .left-login{
+        height: 20%;
+    }
+
+    .right-login{
+        width: 45%;
+        height:auto;
+    }
+}
+
+
+@media only screen and (max-width:1173px){
+
+   
+
+    .left-login{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:765px){
+    .left-login{
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width:411px){
+    .botoesbaixo{
+        flex-direction: column;
+    }
+
+    .botoeslado{
+        flex-direction: column;
+        justify-content: center;
+         align-items: center;
+    }
+
+    .gerencia{
+        margin:0;
+    }
+
+    .colaborador{
+        margin:5px;
+    }
+
+    @media only screen and (max-width:375){
+        .card-login{
+            margin-right:0px;
+            margin:20px;
+        }
+    }
+    .left-login{
+        width:15%;
+    }
+    
+}
+
+@media only screen and (max-width:360){
+    .right-login{
+        width: 30vh;
+    }
+}
